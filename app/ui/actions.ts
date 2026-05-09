@@ -6,10 +6,10 @@ export async function create(formData: FormData) {
   //   body: formData,
   //   method: "post",
   // });
-  // revalidatePath("/dashboard");
+  revalidatePath("/dashboard");
   // refresh();
   // revalidatePath("/isr");
-  updateTag("bro");
+  // updateTag("bro");
   // revalidateTag("bro", "max");
   return {};
 }
