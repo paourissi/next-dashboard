@@ -3,7 +3,7 @@ import { create } from "@/app/ui/actions";
 import Search from "@/app/ui/search";
 
 export default async function Page() {
-  const totalPages = await fetchInvoicesPages("22");
+  const totalPages = await fetchInvoicesPages("22ss");
   console.log("Customer page", totalPages);
   return <Search a={22} create={create} placeholder="Search invoices..." />;
 }
